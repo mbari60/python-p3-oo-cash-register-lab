@@ -25,7 +25,7 @@ class CashRegister:
             self.total -= last_item_price * len([item for item in self.items if item["price"] == last_item_price])
             self.items = [item for item in self.items if item["price"] != last_item_price]
             if not self.items:
-                self.total = 0
+               self.total = 0
 
 
 
